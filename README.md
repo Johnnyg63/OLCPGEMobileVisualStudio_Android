@@ -1,6 +1,7 @@
 # OLC Pixel Game Engine Mobile Android Project 2.2.6
 
 <p>For Android Studio (Windows/Linux/MAC) Use this project: <a href="https://github.com/Johnnyg63/OLCPGEMobileAndroidStudio">OLC Pixel Game Engine Mobile 2.2.6 for Android Studio</a></i></p>
+<p>For Visual Studio All In One (Android and iOS) Project Template: <a href="https://github.com/Johnnyg63/OLCPGEMobileVisualStudio">OLC Pixel Game Engine Mobile 2.2.6 Visual Studio for Android and iOS</a></i></p>
 <p><i>Please see installation steps for Windows Visual Studio towards the bottom of this page</i></p>
 <hr/>
 <p><b><i>!!! IMPORTANT NOTICE!!!</i></b></p>
