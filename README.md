@@ -115,16 +115,16 @@
 <p>7: Open Visual Studio -->Tools-->Options-->Cross Platform. Update your SDK, NDK and Java Path as shown</p>
 <p><img src='https://github.com/Johnnyg63/OLCPGEMobileAndroidProjectBeta20/assets/96908304/77f70549-0d99-4f1e-9415-42fda6a99b20' /></p>
 <p>8: Copy the <a href='https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android/blob/master/OLCPGEMobileAndroidProjectRelease228.zip'>OLCPGEMobileAndroidProjectRelease228.zip</a> to your Projects Templates folder. Example: C:\Users\<i>your username</i>\OneDrive\Documents\Visual Studio 2022\Templates\ProjectTemplates</p>
-<p><img src='https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android/assets/96908304/898e8377-143c-4c24-8ef1-3db5b1e2766f' /></p>
+<p><img src='https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android/assets/96908304/ffa2269f-1f06-493c-b945-2d023b3dc761' /></p>
 <p>9: Put your Android phone into <a href="https://developer.android.com/studio/debug/dev-options#enable"> Development Mode</a> and enable <a href="https://developer.android.com/studio/debug/dev-options#Enable-debugging">USB Debugging.</a></p> <!--Thanks @Pirate Voxel -->
 <p>10: Run Visual Studio 2022 in Admin Mode</p>
 <p><img src='https://github.com/Johnnyg63/OLCPGEMobileAndroidProjectBeta20/assets/96908304/daa5e9a6-309c-4b48-be44-c897ff54b6b2' /></p>
 <p>11: Select Create Project</p>
 <p><img src='https://github.com/Johnnyg63/OLCPGEMobileAndroidProjectBeta20/assets/96908304/c720f822-4e62-417c-8322-b38f8f102059' /></p>
 <p>12: Select OLC Pixel Game Engine Mobile 2.2.8 for Android</p>
-<p><img src='https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android/assets/96908304/83ee8017-09a6-4e4c-b2d7-b39fabcfb2fb' /></p>
+<p><img src='https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android/assets/96908304/9a43149c-69ba-4d99-b15b-557b04860c4e' /></p>
 <p>13: Give your game a cool name. <b>NO SPACES</b> Do not start your project with a number: i.e. 3DShapes, 4Runner</p>
-<p><img src='https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android/assets/96908304/3c9b3446-6351-4731-b7a3-c49eec28fea9' /></p>
+<p><img src='https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android/assets/96908304/f921a6ed-4de4-4a9b-a1ad-603afb5fcf81' /></p>
 <p>Please Note: Keep in mind that you need see your device name appear near the solution configuration, if not, it may not build</p>
 <p><img src='https://github.com/ZikriBen/OLCPGEMobileVisualStudio/assets/57237262/a6d9f14f-d39c-4b82-b837-6d7c53c35097' /></p>
 <p>14: First time build: <br/>
