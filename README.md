@@ -77,7 +77,7 @@
 
 <p><b>!!! Android Engine Updates !!!</b></p>
 <p><b>Supports olcPGEX_MiniAudio.h</b><br/><a href="https://github.com/Moros1138/olcPGEX_MiniAudio/">https://github.com/Moros1138/olcPGEX_MiniAudio/</a> thanks @Moros1138</p>
-<p><b>Supports the latest Android Phones and GPUs</b><br/> SDK 23 --> 33 and beyond</p>
+<p><b>Supports the latest Android Phones and GPUs</b><br/> SDK 23 --> 34 and beyond</p>
 <p>For Android we needed to split the renderer into Renderer_OGLES10 and Renderer_OGLES20. Although most of the code is pretty much the same
 	there maybe updates in the future to support newer & newer Android GPUs coming to the market and I didn't want to end up in a mess of conditional
 	statements... well not yet anyway.</p>
@@ -114,7 +114,7 @@
 </p>
 <p>7: Open Visual Studio -->Tools-->Options-->Cross Platform. Update your SDK, NDK and Java Path as shown</p>
 <p><img src='https://github.com/Johnnyg63/OLCPGEMobileAndroidProjectBeta20/assets/96908304/77f70549-0d99-4f1e-9415-42fda6a99b20' /></p>
-<p>8: Copy the <a href='https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android/blob/master/OLCPGEMobileAndroidProjectRelease227.zip'>OLCPGEMobileAndroidProjectRelease227.zip</a> to your Projects Templates folder. Example: C:\Users\<i>your username</i>\OneDrive\Documents\Visual Studio 2022\Templates\ProjectTemplates</p>
+<p>8: Copy the <a href='https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android/blob/master/OLCPGEMobileAndroidProjectRelease228.zip'>OLCPGEMobileAndroidProjectRelease228.zip</a> to your Projects Templates folder. Example: C:\Users\<i>your username</i>\OneDrive\Documents\Visual Studio 2022\Templates\ProjectTemplates</p>
 <p><img src='https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android/assets/96908304/898e8377-143c-4c24-8ef1-3db5b1e2766f' /></p>
 <p>9: Put your Android phone into <a href="https://developer.android.com/studio/debug/dev-options#enable"> Development Mode</a> and enable <a href="https://developer.android.com/studio/debug/dev-options#Enable-debugging">USB Debugging.</a></p> <!--Thanks @Pirate Voxel -->
 <p>10: Run Visual Studio 2022 in Admin Mode</p>
