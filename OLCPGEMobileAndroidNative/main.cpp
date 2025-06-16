@@ -1,8 +1,8 @@
 
 //////////////////////////////////////////////////////////////////
-// Pixel Game Engine Mobile Release 2.2.8,                      //
-// John Galvin aka Johnngy63: 03-Jun-2024                       //
-// iOS Sensor NOT supported, coming soon                        //
+// Pixel Game Engine Mobile Release 2.2.9,                      //
+// John Galvin aka Johnngy63: 14-Jun-2025                       //
+// New Support for 3D iOS sensors not supported yet             //
 // Please report all bugs to https://discord.com/invite/WhwHUMV //
 // Or on Github: https://github.com/Johnnyg63					//
 //////////////////////////////////////////////////////////////////
@@ -230,10 +230,10 @@ public:
         std::string sMessage = "OneLoneCoder.com";
         vecMessages.push_back(sMessage);
 
-        sMessage = "PGE Mobile Release 2.2.8";
+        sMessage = "PGE Mobile Release 2.2.9";
         vecMessages.push_back(sMessage);
 
-        sMessage = "Now With iOS Support";
+        sMessage = "Now With Liughtweight 3D Support";
         vecMessages.push_back(sMessage);
 
         sMessage = "NOTE: Android FPS = CPU FPS, iOS = GPU FPS";

@@ -1,14 +1,14 @@
-# OLC Pixel Game Engine Mobile Visual Studio Android Project Template 2.2.8
+# OLC Pixel Game Engine Mobile Visual Studio Android Project Template 2.2.9
 
 <p>
 	<b>Supports: Windows, Visual Studio 2019-2022</b><br/>
 	<b>This project supports Android devices SDK 21 --> 34 and beyond</b>
 </p>
 <hr/>
-<p>For Visual Studio All In One (Android and iOS) Project Template: <a href="https://github.com/Johnnyg63/OLCPGEMobileVisualStudio">OLC Pixel Game Engine Mobile 2.2.8 Visual Studio for Android and iOS</a></i></p>
-<p>For Visual Studio Android Only (Windows) Use this project: <a href="https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android">OLC Pixel Game Engine Mobile 2.2.8 for Android Visual Studio</a></i></p>
-<p>For Android Studio (Windows/Linux/MAC) Use this project: <a href="https://github.com/Johnnyg63/OLCPGEMobile_AndroidStudio">OLC Pixel Game Engine Mobile 2.2.8 for Android Studio</a></i></p>
-<p>For Xcode (MAC) Use this project: <a href="https://github.com/Johnnyg63/OLCPGEMobile_Xcode">OLC Pixel Game Engine Mobile 2.2.8 for Xcode</a></i></p>
+<p>For Visual Studio All In One (Android and iOS) Project Template: <a href="https://github.com/Johnnyg63/OLCPGEMobileVisualStudio">OLC Pixel Game Engine Mobile 2.2.9 Visual Studio for Android and iOS</a></i></p>
+<p>For Visual Studio Android Only (Windows) Use this project: <a href="https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android">OLC Pixel Game Engine Mobile 2.2.9 for Android Visual Studio</a></i></p>
+<p>For Android Studio (Windows/Linux/MAC) Use this project: <a href="https://github.com/Johnnyg63/OLCPGEMobile_AndroidStudio">OLC Pixel Game Engine Mobile 2.2.9 for Android Studio</a></i></p>
+<p>For Xcode (MAC) Use this project: <a href="https://github.com/Johnnyg63/OLCPGEMobile_Xcode">OLC Pixel Game Engine Mobile 2.2.9 for Xcode</a></i></p>
 <hr/>
 <p>
 	The <b><i>OLC Pixel Game Engine Mobile Edition </i></b>is a feature-rich fork of the original <a href='https://github.com/OneLoneCoder/olcPixelGameEngine'> OLC Pixel Game Engine</a>. <br/>
@@ -104,7 +104,7 @@
 
 <p><i>Visual Studio Android & iOS template project coming soon.</i></p>
 <p><i>Apple xCode template project coming soon.</i></p>
-<p>NOTE: iOS Beta 2.2.8 does not yet support sensors</p>
+<p>NOTE: iOS Beta 2.2.9 does not yet support sensors</p>
 <hr/>
 
 
@@ -142,7 +142,7 @@
 <hr/>
 
 <p><b><i>!!! Visual Studio Installation !!!</i></b></p>
-<p>For Android Studio (Windows/Linux/MAC) project can be found here: <a href="https://github.com/Johnnyg63/OLCPGEMobileAndroidStudio">OLC Pixel Game Engine Mobile 2.2.8 for Android Studio</p>
+<p>For Android Studio (Windows/Linux/MAC) project can be found here: <a href="https://github.com/Johnnyg63/OLCPGEMobileAndroidStudio">OLC Pixel Game Engine Mobile 2.2.9 for Android Studio</p>
 
 <p>1: Launch Visual Studio 2022 Installer</p> <!--Thanks @Pirate Voxel -->
 <p>2: Click Modify</p>
@@ -175,7 +175,7 @@
 <p><img src='https://github.com/Johnnyg63/OLCPGEMobileAndroidProjectBeta20/assets/96908304/daa5e9a6-309c-4b48-be44-c897ff54b6b2' /></p>
 <p>11: Select Create Project</p>
 <p><img src='https://github.com/Johnnyg63/OLCPGEMobileAndroidProjectBeta20/assets/96908304/c720f822-4e62-417c-8322-b38f8f102059' /></p>
-<p>12: Select OLC Pixel Game Engine Mobile 2.2.8 for Android</p>
+<p>12: Select OLC Pixel Game Engine Mobile 2.2.9 for Android</p>
 <p><img src='https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android/assets/96908304/9a43149c-69ba-4d99-b15b-557b04860c4e' /></p>
 <p>13: Give your game a cool name. <b>NO SPACES</b> Do not start your project with a number: i.e. 3DShapes, 4Runner</p>
 <p><img src='https://github.com/Johnnyg63/OLCPGEMobileVisualStudio_Android/assets/96908304/f921a6ed-4de4-4a9b-a1ad-603afb5fcf81' /></p>
@@ -192,7 +192,7 @@
 
 <hr/>
 
-<p><b><i>!!! Release 2.2.8 Support Details !!!</i></b></p>
+<p><b><i>!!! Release 2.2.9 Support Details !!!</i></b></p>
 
 <p>
 <ul>
@@ -232,7 +232,20 @@
   <li>2.25 Corrected Fatal signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault, forgot to take (subtract) the </li>
   <li>2.26 Updated olc_Configure to set OGLES_20 to use SDK 26->33. A big thanks you to @VasCoder for all his testing!!!!</li>
   <li>2.27 Removed mutexTouchPoints from main engine thread, the engine will run as fast as possiable now!!! </li>
- <li>2.28 Correct onUserDestroy so that it is not called every frame. A Big thank you to <a href='https://github.com/baderouaich/'>@baderouaich</a>. <br/>Added OnLowMemoryWarning() </li>
+  <li>2.28 Correct onUserDestroy so that it is not called every frame. A Big thank you to <a href='https://github.com/baderouaich/'>@baderouaich</a>. <br/>Added OnLowMemoryWarning() </li>
+  <li>2.29: Brought olc::v_2d inline with other sources <br>
+ 	      Hardware 3D Rendering <br>
+		  +HW3D_Projection() - Sets a hardware projection matrix for 3D rendering <br>
+		  +HW3D_EnableDepthTest - Sets whether 3D rendered objects should be depth tested <br>
+		  +HW3D_SetCullMode - Sets which faces of a 3D rendered model are visible <br>
+		  +HW3D_DrawObject - Draw a 3D mesh using hardware <br>
+		  +HW3D_DrawLine - Draw a 3D line using hardware <br>
+		  +HW3D_DrawLineBox	- Draw a 3D box using hardware <br>
+		  +adv_FlushLayerGPUTasks - [ADVANCED] Prematurely drain GPUTasks for immediate buffer update <br>
+		  Added polylines as drawable decal	structures <br>
+		  Updated Geometry2D to support non-segment line intersections <br>
+		  +olcUTIL_Hardware3D.h file v1.01 <br>
+		  NOTICE OF DEPRECATION! olc::DecalInstance is to be removed and replaced by olc::GPUTask </li>
 </ul>
 	
 </p>
