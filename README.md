@@ -1,4 +1,4 @@
-# OLC Pixel Game Engine Mobile Visual Studio Android Project Template 2.2.9
+# OLC Pixel Game Engine Mobile Visual Studio Android Only 2.2.9
 <p>
 	<b>Now with Lightweight 3D Support</b><br/>
 	<b>See <a href="https://github.com/Johnnyg63/OLCPGEMobile_VisualStudio_Android_ONLY/blob/master/Demos/Mobile3DGraphicsDemo.cpp">3D Demo Here</a></b>
